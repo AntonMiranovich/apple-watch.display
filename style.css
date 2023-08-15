@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: "K2D";
+}
+
+.watch {
+  width: 600px;
+  height: 700px;
+  border-radius: 50px;
+  border: 10px solid #828282;
+  background: #222;
+  margin: auto;
+}
+
+.watch .time {
+  color: #fff;
+  font: 400 30px "K2D";
+  width: 103px;
+  height: 39px;
+  margin-top: 56px;
+  margin-left: 442px;
+}
+
+.watch .img {
+  background-image: url(.//assets/Mask.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 472px;
+  height: 472px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.watch .data {
+  color: #fff;
+  font: 400 20px "K2D";
+  margin: auto;
+  margin-top: 25px;
+  width: 102px;
+  height: 26px;
+}
+
+.watch .obj {
+  width: 230px;
+  height: 10px;
+  border-radius: 1px;
+  background: #fff;
+  margin:auto;
+  margin-top: 15px;
+}
