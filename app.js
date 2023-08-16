@@ -11,9 +11,6 @@ setInterval(time, 1000);
 const date = document.querySelector(".data");
 function checkDate() {
   let realDate = new Date();
-  let realTimeDate = realDate.getDate() < 10 ? "0" + realDate.getDate() : realDate.getDate();
-  let realTimeMonth = realDate.getUTCMonth()+1 < 10 ? "0" +( realDate.getUTCMonth()+1) : realDate.getUTCMonth()+1;
-  let realTimeEars = realDate.getFullYear() < 10 ? "0" + realDate.getFullYear() : realDate.getFullYear();
-  date.innerHTML = `${realTimeDate}.${realTimeMonth}.${realTimeEars}`;
+    date.innerHTML = realDate.toDateString();
 }
-setInterval(checkDate, 10000);
+setInterval(checkDate, 1000);
